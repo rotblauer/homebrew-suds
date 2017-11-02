@@ -4,10 +4,9 @@
 
 class Suds < Formula
   desc "just testing out homebrew tap making"
-  homepage "www.rotblauer.com"
+  homepage "https://rotblauer.com"
   url "https://github.com/rotblauer/suds/releases/download/v0.0.1/suds.tar.gz"
   sha256 "e434ef53eb83b0a3e9c93f0314dc5714b2373513be7c3e5f9f60a39fa094ee84"
-  version "v0.0.1"
 
   # depends_on "cmake" => :build
   depends_on "go" => :build
